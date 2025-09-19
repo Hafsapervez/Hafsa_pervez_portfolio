@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FiMoon, FiSun, FiMenu, FiX, FiDownload } from "react-icons/fi";
-import DownloadCV from "./DownloadCV";
+import { FiMoon, FiSun, FiMenu, FiX,  } from "react-icons/fi";
+// import DownloadCV from "./DownloadCV";FiDownload
 
 const Header = ({ darkMode, setDarkMode }) => {
   const [open, setOpen] = useState(false);
@@ -28,7 +28,7 @@ const Header = ({ darkMode, setDarkMode }) => {
         </motion.a>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-12">
           {navItems.map((item, index) => (
             <motion.a
               key={item.name}
@@ -54,7 +54,7 @@ const Header = ({ darkMode, setDarkMode }) => {
           </motion.button>
 
           {/* CV Button for Desktop */}
-          <DownloadCV />
+          {/* <DownloadCV /> */}
         </nav>
 
         {/* Mobile Controls */}
@@ -66,7 +66,7 @@ const Header = ({ darkMode, setDarkMode }) => {
             className="p-2 rounded-full hover:bg-gray-700 dark:hover:bg-gray-200 transition-colors"
             aria-label="Download Resume"
           >
-            <FiDownload size={20} />
+            {/* <FiDownload size={20} /> */}
           </a>
 
           {/* Dark Mode Button */}

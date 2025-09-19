@@ -4,7 +4,7 @@ import { FiGithub, FiLinkedin, FiTwitter, FiMail } from 'react-icons/fi';
 const Hero = ({ darkMode }) => {
   const socialLinks = [
     { icon: <FiGithub />, url: 'https://github.com/Hafsapervez' },
-    { icon: <FiLinkedin />, url: 'https://www.linkedin.com/in/hafsa-pervez-3210402a6/' },
+    { icon: <FiLinkedin />, url: 'https://www.linkedin.com/in/hafza-pervez-3210402a6/' },
     { icon: <FiTwitter />, url: 'https://twitter.com/hafsaaapervez' },
     { icon: <FiMail />, url: 'mailto:hafsapervez203@gmail.com' },
   ];
@@ -22,7 +22,7 @@ const Hero = ({ darkMode }) => {
           </h1>
           
           <h2 className="text-xl md:text-2xl mb-8 text-gray-500 dark:text-gray-400">
-            Junior Full Stack Web Developer
+            Front-End Web Developer
           </h2>
           
           <p className="text-lg mb-12 max-w-2xl mx-auto leading-relaxed">

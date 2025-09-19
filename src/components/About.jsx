@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 
 const About = ({ darkMode }) => {
   const skills = [
-    'JavaScript', 'MERN Stack', 'React', 'Node.js', 'Express', 'MongoDB',
-    'HTML/CSS', 'Tailwind', 'Git', 'Figma', 'Python','c++','Machine Learning'
+    'JavaScript', 'HTML/CSS','React','Figma','Tailwind','BootStrap' ,'Adobe XD' ,
+    'SEO','Framer Motion','Node.js', 'Express', 'MongoDB', 'Git', 'Python','MySQL','REST APIs'
   ];
 
   const [tab, setTab] = useState('about');          // mobile tabs
@@ -47,24 +47,20 @@ const About = ({ darkMode }) => {
           <div className={`${tab === 'about' ? 'block' : 'hidden md:block'}`}>
             <div className={`rounded-2xl border p-5 ${cardBase}`}>
               <p className="leading-relaxed mb-5">
-                I’m a Fresh Graduate In Software Engineering and passionate about building Full Stack Web Applications
-                skilled in React, Node.js, Express, MongoDB, Tailwind CSS, and Figma, creating seamless digital experiences
-                from design to deployment.
+                I’m a passionate Frontend Developer and Software Engineering graduate, skilled at turning Figma/XD designs into pixel-perfect, responsive, and SEO-optimized web experiences.
+                My core expertise includes React, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, and Bootstrap, with a solid understanding of UI/UX principles, cross-browser compatibility, and performance optimization.
 
               </p>
 
               <p className="leading-relaxed mb-5">
-                I’ve developed projects ranging from an AI-powered Fake News Detection System, a feature-rich Food 
-                Delivery App with payment integration, order tracking, and multi-restaurant support, as well as
-                productivity tools like a Text Editing Platform and a News API Website. Along the way, I’ve mastered the 
-                complete development workflow from designing in Figma to deploying live applications.
+                I’ve built interactive projects including a Food Delivery App with Multi Restaurant Support, a News API Website with category filtering, and a Portfolio Website designed for recruiters with smooth animations 
+                and clean navigation. I also have hands-on exposure to backend fundamentals (Node.js, Express, REST APIs) and integrating AI features (like a Fake News Detection system) — giving me a full-picture view of how frontends connect to backends for reliable user experiences.
               </p>
 
               {/* Read more collapsible */}
               <div className={`overflow-hidden transition-[max-height] duration-300 'max-h-[1000px]' : 'max-h-0'}`}>
                 <p className="leading-relaxed">
-                  I’m currently focused on building accessible, scalable, and human-centered products 
-                  that solve real-world problems.I aim to merge creativity with functionality to deliver exceptional solutions
+                  Currently, I’m focused on creating accessible, scalable, and user-centric interfaces that work seamlessly across devices and deliver great performance.
                 </p>
               </div>
             </div>
@@ -98,7 +94,7 @@ const About = ({ darkMode }) => {
                 <div className="mt-6 space-y-3">
                   {[
                     { label: 'Frontend', pct: 80 },
-                    { label: 'Backend', pct: 50 },
+                    { label: 'Backend', pct: 20},
                     { label: 'UI/UX', pct: 70 },
                   ].map((r, i) => (
                     <div key={i}>

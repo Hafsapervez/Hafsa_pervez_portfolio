@@ -21,14 +21,14 @@ const Projects = ({ darkMode }) => {
     {
       id: 3,
       title: "FoodNow - Online Ordering Platform",
-      description: "Created a full-stack food delivery service with real-time order tracking, payment processing, and dynamic cart. Reduced checkout time by 40% through UX optimizations.",
+      description: "Created a Responsive food delivery service with order tracking, payment processing, and dynamic cart. Reduced checkout time by 40% through UX optimizations.",
       video: '/Images/project 3/demo1.mp4', 
-      tech: ["Stripe API", "MERN Stack","Tailwind Css"],
+      tech: ["Stripe API", "React","Tailwind Css","MongoDB","Node.js"],
       codeUrl: "https://github.com/Hafsapervez/food-delivery-app",
       liveUrl: "#",
       features: [
-        "Payment Module + dynamic Cart",
-        "Multi-restaurant support",
+        "Payment Module UI + dynamic Cart",
+        "Multi-restaurant support UI",
         "Nutritional information"
       ]
     },
@@ -49,14 +49,14 @@ const Projects = ({ darkMode }) => {
     {
       id: 4,
       title: "NewsMonkey - Personalized News Aggregator",
-      description: "Engineered a news curation platform with AI-powered recommendations, saving users 30+ minutes daily in news discovery. Implemented customizable feeds and cross-platform sync.",
+      description: "Engineered a news curation platform with Multiple News Categories, saving users 30+ minutes daily in news discovery.",
       video:'/Images/project 4/demo.mp4',
       tech: ["React", "News API", "Tailwind CSS"],
       codeUrl: "https://github.com/Hafsapervez/NewsApp",
       liveUrl: "#",
       features: [
         "Personalized news feeds",
-        "Offline reading",
+        "Multiple Categories",
         "Trend analysis"
       ]
     }
