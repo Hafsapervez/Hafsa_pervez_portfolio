@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const About = ({ darkMode }) => {
   const skills = [
     'JavaScript', 'HTML/CSS','React','Figma','Tailwind','BootStrap' ,'Adobe XD' ,
-    'SEO','Framer Motion','Node.js', 'Express', 'MongoDB', 'Git', 'Python','MySQL','REST APIs'
+    'SEO','Framer Motion','Node.js', 'Express', 'MongoDB', 'Git', 'Python','MySQL','REST APIs', 'angular'
   ];
 
   const [tab, setTab] = useState('about');          // mobile tabs
